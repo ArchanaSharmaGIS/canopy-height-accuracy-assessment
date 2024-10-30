@@ -41,7 +41,7 @@ To quantify prediction accuracy, the following metrics are calculated:
 
 1. **Mean Absolute Error (MAE)**: Measures the average error magnitude without regard to direction, providing a straightforward interpretation of error magnitude. Smaller MAE indicates a closer match to the reference.
 
-        **MAE** = (1 / n) * Σ | predicted_i - reference_i |
+        MAE = (1 / n) * Σ | predicted_i - reference_i |
 
 
 2. **Root Mean Square Error (RMSE)**: Provides a more sensitive error measurement than MAE by penalizing larger errors, giving insights into significant deviations between predicted and reference values.
