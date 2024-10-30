@@ -29,6 +29,8 @@ In this project, canopy height was predicted using a machine learning model trai
 
 For more information, visit [ETH Zurich’s Canopy Height Project](https://ethz.ch).<br>
 ![Prediction](/maps/pre_canopyheight.png)
+<img src="/maps/pre_canopyheight.png" alt="Sample Screenshot" width="500">
+<img src="/maps/refer_canopyheight.png" alt="Sample Screenshot" width="500">
 ![Reference](image/refer_canopy_height.png)
 
 
