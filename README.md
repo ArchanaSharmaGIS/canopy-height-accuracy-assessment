@@ -1,5 +1,5 @@
+# 🌳 Canopy Height Accuracy Assessment
 
-# Canopy Height Accuracy Assessment
 
 This project provides a script to evaluate the accuracy of canopy height predictions against a reference dataset, using ETH Zurich’s Global Canopy Height Map as ground truth data. Key metrics, such as Mean Absolute Error (MAE), Root Mean Square Error (RMSE), Pearson Correlation, and Accuracy Percentage, are calculated to assess the quality of the predictions.
 
