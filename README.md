@@ -30,32 +30,37 @@ In this project, canopy height was predicted using a machine learning model trai
 For more information, visit [ETH Zurich’s Canopy Height Project](https://ethz.ch).
 
 ## Metrics Explanation
+To quantify prediction accuracy, the following metrics are calculated:
 
-The following metrics are calculated to provide a comprehensive evaluation of the prediction accuracy:
+1. **Mean Absolute Error (MAE)**: Measures the average error magnitude without regard to direction, providing a straightforward interpretation of error magnitude. Smaller MAE indicates a closer match to the reference.
 
-1. **Mean Absolute Error (MAE)**: Measures the average magnitude of error between predicted and reference values, ignoring direction. A lower MAE indicates a smaller average error, meaning the predictions are closer to the reference.
-
+   *Formula:*  
    \[
    \text{MAE} = \frac{1}{n} \sum_{i=1}^{n} | \text{predicted}_i - \text{reference}_i |
    \]
 
-2. **Root Mean Square Error (RMSE)**: Indicates the standard deviation of prediction errors. Unlike MAE, RMSE penalizes larger errors more heavily, making it sensitive to large deviations.
+2. **Root Mean Square Error (RMSE)**: Provides a more sensitive error measurement than MAE by penalizing larger errors, giving insights into significant deviations between predicted and reference values.
 
+   *Formula:*  
    \[
    \text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (\text{predicted}_i - \text{reference}_i)^2}
    \]
 
-3. **Pearson Correlation Coefficient**: Measures the linear correlation between predicted and reference values, ranging from -1 (perfect negative correlation) to 1 (perfect positive correlation). A higher correlation value implies that the predictions and reference data follow a similar trend.
+3. **Pearson Correlation Coefficient (r)**: Assesses the linear relationship between predictions and the reference data. Higher correlation values (closer to ±1) indicate stronger alignment with the reference data trends.
 
+   *Formula:*  
    \[
    r = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_{i=1}^{n} (x_i - \bar{x})^2} \cdot \sqrt{\sum_{i=1}^{n} (y_i - \bar{y})^2}}
    \]
 
-4. **Accuracy Percentage**: Indicates how close the predictions are to the reference data, expressed as a percentage. This is calculated based on the MAE relative to the mean of the reference values.
+4. **Accuracy Percentage**: Expresses prediction accuracy relative to the reference dataset as a percentage, where higher values indicate closer alignment.
 
+   *Formula:*  
    \[
    \text{Accuracy Percentage} = 100 - \left(\frac{\text{MAE}}{\text{Mean of Reference Values}} \times 100\right)
    \]
+
+These metrics collectively offer a robust assessment of the model's predictive performance, helping to refine canopy height models for environmental applications.
 
 ## Installation
 
