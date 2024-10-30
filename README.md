@@ -5,7 +5,7 @@ This project provides a script to evaluate the accuracy of canopy height predict
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
-2. [Reference Dataset](#reference-dataset)
+2. [Dataset](#reference-dataset)
 3. [Metrics Explanation](#metrics-explanation)
 4. [Quantitative Accuracy Metrics for Canopy Height Prediction](#Accuracy-metrics)
 5. [Installation](#installation)
@@ -20,7 +20,7 @@ This project provides a script to evaluate the accuracy of canopy height predict
 
 Accurate canopy height mapping is vital for ecological studies, forest management, and carbon stock estimation. This project assesses the accuracy of canopy height model predictions by comparing them to a high-resolution reference dataset, providing error metrics that help quantify the model’s performance.
 
-### Objective
+## Objective
 Accurate canopy height predictions are essential for analyzing forest structure and biomass, contributing to climate change studies and conservation strategies. This project provides a structured, reproducible framework for assessing the accuracy of canopy height predictions. The results include detailed statistical and error metrics, highlighting areas where canopy height models perform well and where improvements are needed.
 
 
