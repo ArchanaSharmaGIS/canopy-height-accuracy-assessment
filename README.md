@@ -52,7 +52,7 @@ To quantify prediction accuracy, the following metrics are calculated:
   
 4. **Pearson Correlation Coefficient (r)**: Assesses the linear relationship between predictions and the reference data. Higher correlation values (closer to ±1) indicate stronger alignment with the reference data trends.
 
-      r = Σ((x_i - x̄)(y_i - ȳ)) / sqrt(Σ(x_i - x̄)^2 * Σ(y_i - ȳ)^2)
+       r = Σ((x_i - x̄)(y_i - ȳ)) / sqrt(Σ(x_i - x̄)^2 * Σ(y_i - ȳ)^2)
 
 
 5. **Accuracy Percentage**: Expresses prediction accuracy relative to the reference dataset as a percentage, where higher values indicate closer alignment.
