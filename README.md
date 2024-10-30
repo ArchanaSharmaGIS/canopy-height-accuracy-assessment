@@ -1,4 +1,4 @@
-# 🌳 Canopy Height Accuracy Assessment
+# 🌳 Canopy Height Prediction Accuracy Assessment
 
 
 This project provides a script to evaluate the accuracy of canopy height predictions against a reference dataset, using ETH Zurich’s Global Canopy Height Map as ground truth data. Key metrics, such as Mean Absolute Error (MAE), Root Mean Square Error (RMSE), Pearson Correlation, and Accuracy Percentage, are calculated to assess the quality of the predictions.
@@ -28,6 +28,9 @@ Accurate canopy height predictions are essential for analyzing forest structure 
 In this project, canopy height was predicted using a machine learning model trained on various remote sensing datasets. The model enhances prediction accuracy by leveraging features from satellite imagery. The comparison of the predicted canopy heights against the ETH Zurich dataset allows for a thorough assessment of the model's performance and effectiveness in estimating canopy heights.
 
 For more information, visit [ETH Zurich’s Canopy Height Project](https://ethz.ch).
+![Prediction Canopy Height](Image/pre_canopyheight.png)
+![NDVI Map for 1999](images/refer_canopyheight.png)
+
 
 ## Metrics Explanation
 To quantify prediction accuracy, the following metrics are calculated:
