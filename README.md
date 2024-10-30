@@ -27,12 +27,7 @@ Accurate canopy height predictions are essential for analyzing forest structure 
 
 ## Dataset
 
-In this project, canopy height was predicted using a machine learning model trained on various remote sensing datasets. The model enhances prediction accuracy by leveraging features from satellite imagery. The comparison of the predicted canopy heights against the ETH Zurich dataset allows for a thorough assessment of the model's performance and effectiveness in estimating canopy heights.
 
-For more information, visit [ETH Zurich’s Canopy Height Project](https://ethz.ch).<br><br>
-
-<img src="/maps/pre_canopyheight.png" alt="Sample Screenshot" width="500">
-<img src="/maps/refer_canopyheight.png" alt="Sample Screenshot" width="500">
 
 
 
@@ -71,10 +66,12 @@ These metrics collectively offer a robust assessment of the model's predictive p
 
 ## Installation
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/YourUsername/canopy-height-accuracy-assessment.git
-   cd canopy-height-accuracy-assessment
+In this project, canopy height was predicted using a machine learning model trained on various remote sensing datasets. The model enhances prediction accuracy by leveraging features from satellite imagery. The comparison of the predicted canopy heights against the ETH Zurich dataset allows for a thorough assessment of the model's performance and effectiveness in estimating canopy heights.
+
+For more information, visit [ETH Zurich’s Canopy Height Project](https://ethz.ch).<br><br>
+
+<img src="/maps/pre_canopyheight.png" alt="Sample Screenshot" width="500">
+<img src="/maps/refer_canopyheight.png" alt="Sample Screenshot" width="500">
 
 
 
