@@ -57,7 +57,7 @@ To quantify prediction accuracy, the following metrics are calculated:
 
 5. **Accuracy Percentage**: Expresses prediction accuracy relative to the reference dataset as a percentage, where higher values indicate closer alignment.
 
-      Accuracy Percentage = 100 - (MAE / Mean of Reference Values * 100)
+       Accuracy Percentage = 100 - (MAE / Mean of Reference Values * 100)
 
 
 These metrics collectively offer a robust assessment of the model's predictive performance, helping to refine canopy height models for environmental applications.
