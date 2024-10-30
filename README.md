@@ -7,13 +7,14 @@ This project provides a script to evaluate the accuracy of canopy height predict
 1. [Project Overview](#project-overview)
 2. [Reference Dataset](#reference-dataset)
 3. [Metrics Explanation](#metrics-explanation)
-4. [Installation](#installation)
-5. [Usage](#usage)
-6. [File Structure](#file-structure)
-7. [Example Output](#example-output)
-8. [Suggested Visuals](#suggested-visuals)
-9. [Contributing](#contributing)
-10. [License](#license)
+4. [Quantitative Accuracy Metrics for Canopy Height Prediction](#Accuracy-metrics)
+5. [Installation](#installation)
+6. [Usage](#usage)
+7. [File Structure](#file-structure)
+8. [Example Output](#example-output)
+9. [Suggested Visuals](#suggested-visuals)
+10. [Contributing](#contributing)
+11. [License](#license)
 
 ## Project Overview
 
@@ -31,6 +32,7 @@ For more information, visit [ETH Zurich’s Canopy Height Project](https://ethz.
 
 <img src="/maps/pre_canopyheight.png" alt="Sample Screenshot" width="500">
 <img src="/maps/refer_canopyheight.png" alt="Sample Screenshot" width="500">
+
 
 
 
@@ -66,6 +68,11 @@ To quantify prediction accuracy, the following metrics are calculated:
    \]
 
 These metrics collectively offer a robust assessment of the model's predictive performance, helping to refine canopy height models for environmental applications.
+
+## Quantitative Accuracy Metrics for Canopy Height Prediction
+
+![Accuracy Metrics for Canopy Height Prediction](maps/chart_bar.png)
+
 
 ## Installation
 
