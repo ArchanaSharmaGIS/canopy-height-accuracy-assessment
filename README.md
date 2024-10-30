@@ -68,8 +68,9 @@ These metrics collectively offer a robust assessment of the model's predictive p
 ## Model Performance Summary
 The current model performance, based on the comparison with ETH Zurich’s Global Canopy Height Map as reference data, is summarized below:
 
-Interpretation of Results
-MAE (6.90) and RMSE (8.71) suggest there are notable errors between the predicted canopy heights and the reference values. While these values show the model captures some canopy height variation, they also highlight areas for improvement.
-Pearson Correlation (0.70) indicates a moderate linear relationship between predicted and reference canopy heights. This suggests that the model captures some trends in canopy height but may not fully reflect actual canopy variations.
-Accuracy Percentage (61.07%) shows that the model captures approximately 61% of the canopy height variation. This lower percentage is due to limitations in input data quality, which impacts the accuracy of the predictions.
+#### Interpretation of Results
+MAE (6.90) and RMSE (8.71) suggest there are notable errors between the predicted canopy heights and the reference values. While these values show the model captures some canopy height variation, they also highlight areas for improvement.<br>
+Pearson Correlation (0.70) indicates a moderate linear relationship between predicted and reference canopy heights. This suggests that the model captures some trends in canopy height but may not fully reflect actual canopy variations.<br>
+Accuracy Percentage (61.07%) shows that the model captures approximately 61% of the canopy height variation. This lower percentage is due to limitations in input data quality, which impacts the accuracy of the predictions.<br>
 
+<img src="/maps/matric.png" alt="Sample Screenshot" width="500">
