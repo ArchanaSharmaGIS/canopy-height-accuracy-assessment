@@ -71,7 +71,6 @@ These metrics collectively offer a robust assessment of the model's predictive p
 
 ## Quantitative Accuracy Metrics for Canopy Height Prediction
 
-![Accuracy Metrics for Canopy Height Prediction](maps/chart_bar.png)
 <img src="/maps/chart_bar.png" alt="Sample Screenshot" width="500">
 
 
