@@ -8,13 +8,8 @@ ons against a reference dataset, using ETH Zurich’s Global Canopy Height Map a
 1. [Project Overview](#project-overview)
 2. [Dataset](#dataset)
 3. [Metrics Explanation](#metrics-explanation)
-4. [Quantitative Accuracy Metrics for Canopy Height Prediction](#Accuracy-metrics)
-6. [Usage](#usage)
-7. [File Structure](#file-structure)
-8. [Example Output](#example-output)
-9. [Suggested Visuals](#suggested-visuals)
-10. [Contributing](#contributing)
-11. [License](#license)
+4. [Quantitative Accuracy Metrics for Canopy Height Prediction](#Quantitative-Accuracy-Metrics-for-Canopy-Height-Prediction)
+
 
 ## Project Overview
 
