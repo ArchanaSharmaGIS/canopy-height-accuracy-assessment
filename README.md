@@ -21,7 +21,7 @@ Accurate canopy height mapping is vital for ecological studies, forest managemen
 
 ### Objective
 
-The objective is to help researchers and developers evaluate canopy height models and improve prediction accuracy, supporting more reliable environmental assessments.
+The objective is to help evaluate canopy height models and improve prediction accuracy, supporting more reliable environmental assessments.
 
 ## Reference Dataset
 
