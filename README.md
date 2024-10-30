@@ -1,7 +1,8 @@
 # 🌳 Canopy Height Prediction Accuracy Assessment
 
 
-This project provides a script to evaluate the accuracy of canopy height predictions against a reference dataset, using ETH Zurich’s Global Canopy Height Map as ground truth data. Key metrics, such as Mean Absolute Error (MAE), Root Mean Square Error (RMSE), Pearson Correlation, and Accuracy Percentage, are calculated to assess the quality of the predictions.
+This project provides a script to evaluate the accuracy of canopy height predicti  
+ons against a reference dataset, using ETH Zurich’s Global Canopy Height Map as ground truth data. Key metrics, such as Mean Absolute Error (MAE), Root Mean Square Error (RMSE), Pearson Correlation, and Accuracy Percentage, are calculated to assess the quality of the predictions.
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
@@ -46,7 +47,7 @@ To quantify prediction accuracy, the following metrics are calculated:
 
 2. **Root Mean Square Error (RMSE)**: Provides a more sensitive error measurement than MAE by penalizing larger errors, giving insights into significant deviations between predicted and reference values. Lower RMSE indicates better model performance.
 
-      RMSE = sqrt((1 / n) * Σ (predicted_i - reference_i)^2)
+       RMSE = sqrt((1 / n) * Σ (predicted_i - reference_i)^2) |
 
   
 4. **Pearson Correlation Coefficient (r)**: Assesses the linear relationship between predictions and the reference data. Higher correlation values (closer to ±1) indicate stronger alignment with the reference data trends.
