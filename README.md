@@ -74,6 +74,214 @@ These metrics collectively offer a robust assessment of the model's predictive p
 <img src="/maps/chart_bar.png" alt="Sample Screenshot" width="500">
 
 
+To evaluate the accuracy of the canopy height predictions, we used the following metrics:
+
+1. Mean Absolute Error (MAE)
+Measures the average magnitude of errors between predictions and reference values without considering their direction. A smaller MAE indicates better prediction accuracy.
+
+Formula:
+
+MAE
+=
+1
+𝑛
+∑
+𝑖
+=
+1
+𝑛
+∣
+predicted
+𝑖
+−
+reference
+𝑖
+∣
+MAE= 
+n
+1
+​
+  
+i=1
+∑
+n
+​
+ ∣predicted 
+i
+​
+ −reference 
+i
+​
+ ∣
+2. Root Mean Square Error (RMSE)
+RMSE provides a weighted error measure that penalizes larger discrepancies, highlighting significant deviations between predicted and reference values. Lower RMSE indicates better model performance.
+
+Formula:
+
+RMSE
+=
+1
+𝑛
+∑
+𝑖
+=
+1
+𝑛
+(
+predicted
+𝑖
+−
+reference
+𝑖
+)
+2
+RMSE= 
+n
+1
+​
+  
+i=1
+∑
+n
+​
+ (predicted 
+i
+​
+ −reference 
+i
+​
+ ) 
+2
+ 
+​
+ 
+3. Pearson Correlation Coefficient (r)
+Evaluates the linear correlation between predictions and reference data, with values closer to ±1 suggesting a strong positive or negative relationship. It does not account for scale or bias in values but reflects consistency in trends.
+
+Formula:
+
+𝑟
+=
+∑
+𝑖
+=
+1
+𝑛
+(
+𝑥
+𝑖
+−
+𝑥
+ˉ
+)
+(
+𝑦
+𝑖
+−
+𝑦
+ˉ
+)
+∑
+𝑖
+=
+1
+𝑛
+(
+𝑥
+𝑖
+−
+𝑥
+ˉ
+)
+2
+⋅
+∑
+𝑖
+=
+1
+𝑛
+(
+𝑦
+𝑖
+−
+𝑦
+ˉ
+)
+2
+r= 
+∑ 
+i=1
+n
+​
+ (x 
+i
+​
+ − 
+x
+ˉ
+ ) 
+2
+ 
+​
+ ⋅ 
+∑ 
+i=1
+n
+​
+ (y 
+i
+​
+ − 
+y
+ˉ
+​
+ ) 
+2
+ 
+​
+ 
+∑ 
+i=1
+n
+​
+ (x 
+i
+​
+ − 
+x
+ˉ
+ )(y 
+i
+​
+ − 
+y
+ˉ
+​
+ )
+​
+ 
+4. Accuracy Percentage
+Reflects prediction accuracy as a percentage relative to the reference dataset’s mean value. A higher accuracy percentage indicates closer alignment with the reference.
+
+Formula:
+
+Accuracy Percentage
+=
+100
+−
+(
+MAE
+Mean of Reference Values
+×
+100
+)
+Accuracy Percentage=100−( 
+Mean of Reference Values
+MAE
+​
+ ×100)
+
+
 ## Installation
 
 1. **Clone the repository**:
