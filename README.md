@@ -44,26 +44,20 @@ To quantify prediction accuracy, the following metrics are calculated:
         MAE = (1 / n) * Σ | predicted_i - reference_i |
 
 
-2. **Root Mean Square Error (RMSE)**: Provides a more sensitive error measurement than MAE by penalizing larger errors, giving insights into significant deviations between predicted and reference values.
+2. **Root Mean Square Error (RMSE)**: Provides a more sensitive error measurement than MAE by penalizing larger errors, giving insights into significant deviations between predicted and reference values. Lower RMSE indicates better model performance.
 
-   *Formula:*  
-   \[
-   \text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (\text{predicted}_i - \text{reference}_i)^2}
-   \]
+      RMSE = sqrt((1 / n) * Σ (predicted_i - reference_i)^2)
 
-3. **Pearson Correlation Coefficient (r)**: Assesses the linear relationship between predictions and the reference data. Higher correlation values (closer to ±1) indicate stronger alignment with the reference data trends.
+  
+4. **Pearson Correlation Coefficient (r)**: Assesses the linear relationship between predictions and the reference data. Higher correlation values (closer to ±1) indicate stronger alignment with the reference data trends.
 
-   *Formula:*  
-   \[
-   r = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_{i=1}^{n} (x_i - \bar{x})^2} \cdot \sqrt{\sum_{i=1}^{n} (y_i - \bar{y})^2}}
-   \]
+      r = Σ((x_i - x̄)(y_i - ȳ)) / sqrt(Σ(x_i - x̄)^2 * Σ(y_i - ȳ)^2)
 
-4. **Accuracy Percentage**: Expresses prediction accuracy relative to the reference dataset as a percentage, where higher values indicate closer alignment.
 
-   *Formula:*  
-   \[
-   \text{Accuracy Percentage} = 100 - \left(\frac{\text{MAE}}{\text{Mean of Reference Values}} \times 100\right)
-   \]
+5. **Accuracy Percentage**: Expresses prediction accuracy relative to the reference dataset as a percentage, where higher values indicate closer alignment.
+
+    Accuracy Percentage = 100 - (MAE / Mean of Reference Values * 100)
+
 
 These metrics collectively offer a robust assessment of the model's predictive performance, helping to refine canopy height models for environmental applications.
 
